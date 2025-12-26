@@ -1,8 +1,8 @@
 const CACHE_NAME = 'achieveit-v1';
+const BASE_PATH = '/AchieveIt';
 const urlsToCache = [
-  '/',
-  '/index.html',
-  '/src/main.jsx',
+  `${BASE_PATH}/`,
+  `${BASE_PATH}/index.html`,
 ];
 
 // Install event
